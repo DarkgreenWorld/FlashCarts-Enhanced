@@ -6,14 +6,24 @@
 [![CurseForge](https://img.shields.io/badge/Published%20on-CurseForge-f16436?logo=curseforge&logoColor=orange)](https://www.curseforge.com/minecraft/mc-mods/flash-carts-enhanced/) 
 [![GitHub](https://img.shields.io/badge/GitHub-gray?logo=github&logoColor=black&labelColor=white)](https://github.com/DarkgreenWorld/FlashCarts)
 
-Requires <img alt="Fabric API icon" src="https://cdn.modrinth.com/data/P7dR8mSH/icon.png" width="20" height="20"> [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
+**The Link of Original Flash Carts:**
 
-**The Link of Original Flash Carts**
-
-[![Modrinth](https://img.shields.io/badge/Flash%20Carts-Modrinth-1bd96a?logo=modrinth&logoColor=bluegreen)](https://modrinth.com/mod/flash-carts) 
+[![Modrinth](https://img.shields.io/badge/Flash%20Carts-Modrinth-1bd96a?logo=modrinth&logoColor=bluegreen)](https://modrinth.com/mod/flash-carts)
 [![GitHub](https://img.shields.io/badge/GitHub-gray?logo=github&logoColor=black&labelColor=white)](https://github.com/gjorgdy/FlashCarts)
 
+Overall, it is basically consistent with the behavior of the original mod, but there are still the following important changes:
+1. The changes to minecart collisions in the original mod have been removed, and minecarts will now collide normally according to vanilla behavior;
+2. The integration with Fzzy Config has been removed. The mod will now generate a configuration file by default, and a graphical configuration interface has been implemented using vanilla mechanics;
+3. Integration with Linkart Overhaul: Minecarts using different physics logic cannot be connected by the coupling mechanism provided by Linkart, to avoid uncontrollable consequences;
+4. Integration with Mod Menu;
+5. Added the "Express Minecart";
+6. Added Simplified Chinese translation;
+7. Fixed the bug where the maximum speed of powered minecarts was only half of the config setting;
+8. Fixed bugs related to the cheap recipe.
+
 ## About
+
+_Requires_ <img alt="Fabric API icon" src="https://cdn.modrinth.com/data/P7dR8mSH/icon.png" width="20" height="20"> [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
 
 The primary goal of this mod is to make minecarts better without breaking your Redstone.
 
@@ -24,7 +34,10 @@ These experimental physics allow for a lot higher speeds, but do often break red
 
 By default, the new physics are applied to normal and TNT minecarts, but not to chest, furnace, or hopper minecarts.
 
-Alternatively, you can enable the __**Express Minecart**__ crafting recipe in the config file. They are crafted using one redstone torch and any regular minecart, and always have experimental physics enabled. You can then disable experimental physics for regular minecarts.
+Alternatively, you can enable the Express Minecart crafting recipe in the config file. 
+They are crafted using one redstone torch and any regular minecart, and always have experimental physics enabled. 
+Its item form is a minecart with an enchanted glint, and when placed it is a minecart with a redstone torch attached to the rear. 
+You can then disable experimental physics for regular minecarts.
 
 #### Smart Halting
 

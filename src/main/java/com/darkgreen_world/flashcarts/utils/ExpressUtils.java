@@ -10,17 +10,6 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.component.TypedEntityData;
 
-/**
- * An express minecart is an ordinary minecart that carries the entity tag {@link #TAG}. Its item form stores the tag in
- * the {@code entity_data} component, which vanilla applies to the entity when the item is placed.
- * <p>
- * The item components set by {@link #makeExpress} are repeated in the following data files and must be kept identical:
- * <ul>
- *   <li>{@code data/flash_carts/recipe/express_*.json}, which craft express minecarts from a redstone torch or from another express minecart;</li>
- *   <li>{@code data/minecraft/recipe/{chest,furnace,hopper,tnt}_minecart.json}, which override the vanilla recipes so that they
- *   reject express minecarts and only the express variants above match.</li>
- * </ul>
- */
 public abstract class ExpressUtils {
 
     public static final String TAG = "flash_carts.express";
