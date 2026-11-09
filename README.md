@@ -11,6 +11,9 @@
 [![Modrinth](https://img.shields.io/badge/Flash%20Carts-Modrinth-1bd96a?logo=modrinth&logoColor=bluegreen)](https://modrinth.com/mod/flash-carts)
 [![GitHub](https://img.shields.io/badge/GitHub-gray?logo=github&logoColor=black&labelColor=white)](https://github.com/gjorgdy/FlashCarts)
 
+This forked project was completed with the assistance of **Claude Opus 5.5**.
+In addition, we would like to express our sincere gratitude to **[UtmostStar](https://github.com/UtmostStar)** for his contributions to this project.
+
 Overall, it is basically consistent with the behavior of the original mod, but there are still the following important changes:
 1. The changes to minecart collisions in the original mod have been removed, and minecarts will now collide normally according to vanilla behavior;
 2. The integration with Fzzy Config has been removed. The mod will now generate a configuration file by default, and a graphical configuration interface has been implemented using vanilla mechanics;
